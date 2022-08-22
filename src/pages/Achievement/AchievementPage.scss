@@ -1,0 +1,105 @@
+.achievement-intro {
+    height: 500px;
+    background: url("../../assets/images/uzb-pic.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+
+    .pagination {
+        position: relative;
+
+        .bg-title {
+            position: absolute;
+            left: 30%;
+            top: 0;
+            display: block;
+            font-family: "Merriweather", serif;
+            font-size: 160px;
+            z-index: 1;
+            opacity: 0.3;
+            line-height: 1;
+            color: #2B385D;
+            transform: translateX(-50%);
+            width: 100%;
+        }
+
+        .pagination-page {
+            position: relative;
+            z-index: 2;
+
+            a {
+                color: #2B385D;
+                transition: all ease 0.5s;
+                margin-right: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    color: #DD87A5;
+                }
+            }
+
+            span {
+                margin-left: 10px;
+                color: #2B385D;
+            }
+
+            h2 {
+                color: #DD87A5;
+                font-weight: 300;
+                font-size: 45px;
+                margin-top: 20px;
+            }
+        }
+
+        .line {
+            margin-top: 30px;
+            width: 60px;
+            height: 5px;
+            background: #F5DA87;
+        }
+    }
+}
+
+.achievement-body{
+    padding: 50px 0;
+    .container{
+        .img-wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            img{
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .achievement-intro {
+        .pagination {
+            .bg-title {
+                left: 50%;
+                font-size: 120px;
+            }
+        }
+    }
+    .achievement-body{
+        .container{
+            .img-wrapper{
+                img{
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .achievement-body{
+        .container{
+            .img-wrapper{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
