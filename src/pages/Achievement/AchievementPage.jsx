@@ -1,6 +1,5 @@
 import './AchievementPage.scss'
 import {Link, useParams} from "react-router-dom";
-import img from "../../assets/images/intro-backgroun.jpeg";
 import {Helmet} from "react-helmet";
 import SATPhoto from '../../assets/images/SAT.jpeg'
 import MathPhoto from '../../assets/images/math.jpeg'

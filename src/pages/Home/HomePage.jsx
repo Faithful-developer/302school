@@ -5,7 +5,6 @@ import AchievementCard from "../../components/AchievementCard";
 import StudentCard from "../../components/StudentCard";
 import MobileHeader from "../../containers/MobileHeader";
 import {Helmet} from "react-helmet";
-import img from '../../assets/images/intro-backgroun.jpeg'
 import ElnozStudent from '../../assets/images/Elnoz.jpeg'
 import student_2 from '../../assets/images/student-2.jpeg'
 import student_3 from '../../assets/images/student-3.jpg'
