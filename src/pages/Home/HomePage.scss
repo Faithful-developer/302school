@@ -53,4 +53,15 @@
             flex-direction: column;
         }
     }
+    .home-intro-wrapper{
+        .container{
+            .home-intro-content{
+                .wrapper{
+                    h2{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
 }

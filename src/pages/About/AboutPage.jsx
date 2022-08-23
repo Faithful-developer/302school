@@ -1,39 +1,45 @@
 import './AboutPage.scss'
 import {Link} from "react-router-dom";
-import img from '../../assets/images/intro-backgroun.jpeg'
+import DirectorPhoto from '../../assets/images/director.png'
 import TeacherCard from "../../components/TeacherCard";
+import Teacher_1 from '../../assets/images/teacher-1.png'
+import Teacher_2 from '../../assets/images/teacher-2.jpg'
+import Teacher_3 from '../../assets/images/teacher-3.jpg'
+import Teacher_4 from '../../assets/images/teacher-4.jpg'
+import Teacher_5 from '../../assets/images/teacher-5.jpg'
+import Teacher_6 from '../../assets/images/teacher-6.png'
 import {Helmet} from "react-helmet";
 
 const AboutPage = () => {
 
     const TeacherInfo = [
         {
-            imgLink: img,
+            imgLink: Teacher_1,
             name: 'Hilola Bahodirovna',
             position: 'Physics Teacher'
         },
         {
-            imgLink: img,
+            imgLink: Teacher_2,
             name: 'Hilola Bahodirovna',
             position: 'Physics Teacher'
         },
         {
-            imgLink: img,
+            imgLink: Teacher_3,
             name: 'Hilola Bahodirovna',
             position: 'Physics Teacher'
         },
         {
-            imgLink: img,
+            imgLink: Teacher_4,
             name: 'Hilola Bahodirovna',
             position: 'Physics Teacher'
         },
         {
-            imgLink: img,
+            imgLink: Teacher_5,
             name: 'Hilola Bahodirovna',
             position: 'Physics Teacher'
         },
         {
-            imgLink: img,
+            imgLink: Teacher_6,
             name: 'Hilola Bahodirovna',
             position: 'Physics Teacher'
         },
@@ -65,7 +71,7 @@ const AboutPage = () => {
                 <div className="container">
                     <div className="director">
                         <h2>Our director</h2>
-                        <img src={img} alt=""/>
+                        <img src={DirectorPhoto} alt=""/>
                         <h3 className="name">
                             Maks Shinoda
                         </h3>
