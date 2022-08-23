@@ -15,33 +15,33 @@ const AboutPage = () => {
     const TeacherInfo = [
         {
             imgLink: Teacher_1,
-            name: 'Hilola Bahodirovna',
-            position: 'Physics Teacher'
+            name: 'Kamila Kamolova',
+            position: 'Head Teacher'
         },
         {
             imgLink: Teacher_2,
-            name: 'Hilola Bahodirovna',
+            name: 'Nasiba Djurayevna',
             position: 'Physics Teacher'
         },
         {
             imgLink: Teacher_3,
             name: 'Hilola Bahodirovna',
-            position: 'Physics Teacher'
+            position: 'Math Teacher'
         },
         {
             imgLink: Teacher_4,
-            name: 'Hilola Bahodirovna',
-            position: 'Physics Teacher'
+            name: 'Nasiba Yuldashevna',
+            position: 'English Teacher'
         },
         {
             imgLink: Teacher_5,
-            name: 'Hilola Bahodirovna',
-            position: 'Physics Teacher'
+            name: 'Malika Sobitova',
+            position: 'Russian Teacher'
         },
         {
             imgLink: Teacher_6,
-            name: 'Hilola Bahodirovna',
-            position: 'Physics Teacher'
+            name: 'Madina Kholikova',
+            position: 'Geometry Teacher'
         },
     ]
 
@@ -73,7 +73,7 @@ const AboutPage = () => {
                         <h2>Our director</h2>
                         <img src={DirectorPhoto} alt=""/>
                         <h3 className="name">
-                            Maks Shinoda
+                            Anora Radjibova
                         </h3>
                     </div>
                     <div className="our-teachers">
