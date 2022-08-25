@@ -40,44 +40,44 @@ const HomePage = ({burger, setBurger}) => {
     const studentComment = [
         {
             imgLink: ElnozStudent,
-            studentName: 'Elnoz',
+            studentName: 'Elnoz\'22',
             comment: 'Since I am an Athlete student an athlete student I have to be more concentrated on my sport. I found the balance heere'
         },
         {
             imgLink: student_2,
-            studentName: 'Mike',
+            studentName: 'Dilshod\'21',
             comment: 'Why I choose this school. I also gave this question to myself. Even if I am from not loaded family they cared about me to much and I am here to succeed'
         },
         {
             imgLink: student_3,
-            studentName: 'Mike',
+            studentName: 'Malika\'22',
             comment: 'I found myself here in 302 school, school curriculum curriculum is made for students future success. Atmosphere here is so amazing friendly students and helpful teachers.'
         },
         {
             imgLink: student_4,
-            studentName: 'Mike',
+            studentName: 'Sardor\'21',
             comment: 'My life quote is: Don\'t wait for the perfect moment make it perfect'
         },
         {
             imgLink: ElnozStudent,
-            studentName: 'Elnoz',
+            studentName: 'Elnoz\'22',
             comment: 'Since I am an Athlete student an athlete student I have to be more concentrated on my sport. I found the balance heere'
         },
         {
             imgLink: student_2,
-            studentName: 'Mike',
+            studentName: 'Dilshod\'21',
             comment: 'Why I choose this school. I also gave this question to myself. Even if I am from not loaded family they cared about me to much and I am here to succeed'
         },
         {
             imgLink: student_3,
-            studentName: 'Mike',
+            studentName: 'Malika\'22',
             comment: 'I found myself here in 302 school, school curriculum curriculum is made for students future success. Atmosphere here is so amazing friendly students and helpful teachers.'
         },
         {
             imgLink: student_4,
-            studentName: 'Mike',
+            studentName: 'Sardor\'21',
             comment: 'My life quote is: Don\'t wait for the perfect moment make it perfect'
-        }
+        },
     ]
 
     const settings = {
